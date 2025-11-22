@@ -1,0 +1,31 @@
+# Large data files
+*.csv
+train_encoded.csv
+val_encoded.csv
+test_encoded.csv
+avazu_sample_5M.csv
+
+# Model files (too large)
+*.pth
+policy_model.pth
+policy_model_production.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

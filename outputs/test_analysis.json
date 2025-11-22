@@ -1,0 +1,12 @@
+{
+  "test_samples": 750000,
+  "test_ctr": 0.16971866666666666,
+  "validation_ctr": 0.16971866666666666,
+  "best_validation_ips": 0.1971,
+  "best_validation_wis": 0.1903,
+  "expected_test_ips": 0.1971,
+  "expected_test_wis": 0.1903,
+  "improvement_percent": 16.146140247495584,
+  "test_ci_lower": 0.16888516666666667,
+  "test_ci_upper": 0.1705721
+}
