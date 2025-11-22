@@ -5,7 +5,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements a **REINFORCE-based policy gradient algorithm** to optimize banner ad position selection for maximizing click-through rate (CTR). Using offline RL on logged data from the Avazu CTR dataset, our learned policy achieved an **estimated 16.1% improvement** over the baseline.
 
@@ -18,7 +18,7 @@ This project implements a **REINFORCE-based policy gradient algorithm** to optim
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 | Metric | Baseline | Our Policy | Improvement |
 |--------|----------|------------|-------------|
@@ -30,7 +30,7 @@ This project implements a **REINFORCE-based policy gradient algorithm** to optim
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 ```
 Input (20 features) 
     ↓
@@ -45,7 +45,7 @@ Policy Head (7 actions) + Value Head (baseline)
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 ```bash
@@ -65,7 +65,7 @@ python code/test_analysis.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 project/
 ├── code/
@@ -114,7 +114,7 @@ Since we work with logged data (offline RL), we estimate policy performance usin
 
 ---
 
-## 📈 Training Details
+##  Training Details
 
 | Hyperparameter | Value |
 |----------------|-------|
@@ -127,7 +127,7 @@ Since we work with logged data (offline RL), we estimate policy performance usin
 
 ---
 
-## 🎯 Key Findings
+##  Key Findings
 
 1. **Position 6 is best** (32.89% CTR) but underutilized (0.1% of data)
 2. **Position 0 is overused** (72.1% of data) despite low CTR (16.45%)
@@ -136,7 +136,7 @@ Since we work with logged data (offline RL), we estimate policy performance usin
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 ### Training Curves
 ![Training Curves](outputs/training_curves.png)
@@ -144,19 +144,8 @@ Since we work with logged data (offline RL), we estimate policy performance usin
 ### Test Analysis
 ![Test Analysis](outputs/test_analysis.png)
 
----
 
-## 🔮 Future Work
-
-- [ ] Implement A2C/PPO for comparison
-- [ ] Add Doubly Robust estimator
-- [ ] Production deployment with A/B testing
-- [ ] Online learning for distribution shift
-- [ ] Model compression for faster inference
-
----
-
-## 📚 References
+##  References
 
 1. Williams (1992) - REINFORCE algorithm
 2. Sutton & Barto (2018) - Reinforcement Learning textbook
@@ -165,32 +154,7 @@ Since we work with logged data (offline RL), we estimate policy performance usin
 
 ---
 
-## 👥 Authors
+##  Authors
 
-**[Your Name]**  
-[Your Email]  
-[Course Name]
+Abdellah Elyamine DALI BRAHAM
 
----
-
-## 📄 License
-
-MIT License - feel free to use for educational purposes!
-
----
-
-## 🙏 Acknowledgments
-
-- Avazu for the CTR dataset
-- Course instructors for guidance
-- PyTorch team for the framework
-
----
-
-## 📧 Contact
-
-Questions? Open an issue or contact [your.email@example.com]
-
----
-
-**⭐ If you found this project helpful, please give it a star!**
