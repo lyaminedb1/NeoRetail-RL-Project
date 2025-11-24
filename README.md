@@ -91,7 +91,7 @@ project/
 
 ---
 
-## 🔬 Method
+##  Method
 
 ### Algorithm: REINFORCE + Baseline
 
