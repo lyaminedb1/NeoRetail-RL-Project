@@ -121,7 +121,7 @@ Generates training curves and test set analysis with statistical validation.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 NeoRetail-RL-Project/
 ├── code/
@@ -232,11 +232,7 @@ Validates performance on held-out test set with performance comparison, action d
 
 
 ##  References
-
-1. Williams (1992) - REINFORCE algorithm
-2. Sutton & Barto (2018) - Reinforcement Learning textbook
-3. Dudík et al. (2011) - Doubly Robust evaluation
-4. [Avazu CTR Dataset](https://www.kaggle.com/c/avazu-ctr-prediction) - Kaggle
+. [Avazu CTR Dataset](https://www.kaggle.com/c/avazu-ctr-prediction) - Kaggle
 
 ---
 
